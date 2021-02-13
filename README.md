@@ -1,1 +1,1 @@
-# yt-video-picker
+# Youtube Video Picker
