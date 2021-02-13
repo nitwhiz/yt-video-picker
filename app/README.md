@@ -1,6 +1,6 @@
 # Youtube Video Picker Client
 
-`API_URL` needs to be set in env.
+`API_URL` needs to be set in env when building the app, pointing to the server.
 
 ## Project setup
 ```
