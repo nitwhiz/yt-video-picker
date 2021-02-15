@@ -145,7 +145,7 @@ export default class App extends Vue {
       return Promise.resolve(this.playlistData);
     }
 
-    return Axios.get(`${process.env.API_URL}/lists/${this.playlistId}/videos`, {
+    return Axios.get(`${process.env.VUE_APP_API_URL}/lists/${this.playlistId}/videos`, {
       validateStatus(status) {
         return status < 400;
       }
